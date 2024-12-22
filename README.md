@@ -1,0 +1,3 @@
+# std::vector<bool> Pitfalls
+
+This repository demonstrates the potential issues encountered when using `std::vector<bool>` in C++.  `std::vector<bool>` deviates from the standard vector behavior and this can lead to performance problems and unexpected results.  The example code showcases such issues and their solutions.  Consider using `std::vector<char>` or other alternatives to avoid these pitfalls.
